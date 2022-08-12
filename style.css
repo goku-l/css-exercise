@@ -1,0 +1,143 @@
+.full {
+    background: lightgreen;
+    height: 60vh;
+    width: 80vh;
+    border: 2px solid darkgreen;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 10px;
+    gap: 10px;
+    box-sizing: content-box;
+
+}
+
+.flex-container1 {
+    background: lightblue;
+    flex-grow: 1;
+    border: 2px solid darkblue;
+    display: flex;
+    /* height: 15%; */
+    /* margin: 0 auto; */
+    /* margin: 10px; */
+    gap: 10px;
+    border-radius: 5px;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: content-box;
+
+}
+
+#one,
+#two,
+#three {
+    background: peachpuff;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    /* height: 10vh; */
+    flex-grow: 1;
+    /* width: 33.33%; */
+    /* margin: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    box-sizing: content-box;
+
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: content-box;
+
+}
+
+.one1,
+.two2 {
+    box-sizing: content-box;
+
+    background: pink;
+    height: 90%;
+    flex-grow: 1;
+    /* width: 48%; */
+    margin: 0 auto;
+    border: 2px solid red;
+
+}
+
+.flex-container2 {
+    display: flex;
+    flex-grow: 3;
+    /* height: 70%; */
+    gap: 5px;
+    /* align-items: center; */
+    justify-content: center;
+    /* width: 100%; */
+    box-sizing: content-box;
+
+    /* padding: 10px; */
+    /* margin: 10px; */
+}
+
+.first,
+.height1 {
+    box-sizing: content-box;
+    flex-grow: 1;
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.first {
+    background: #ffcce6;
+    border: 2px solid brown;
+    border-radius: 5px;
+}
+
+
+.second,
+.third {
+    background: #ffcce6;
+    flex-grow: 1;
+    /* width: 98.5%; */
+    /* margin: 10px; */
+    border: 2px solid brown;
+    border-radius: 5px;
+}
+
+.flex-container3 {
+    background: lightblue;
+    border: 2px solid darkblue;
+    flex-grow: 1;
+    /* height: 15%; */
+    display: flex;
+    border-radius: 5px;
+    gap: 5px;
+    padding: 10px;
+    justify-content: center;
+    box-sizing: content-box;
+}
+
+.threeone {
+    background: lavender;
+    border: 2px solid darkblue;
+    flex-grow: 2;
+    /* width: 35%; */
+    border-radius: 5px;
+}
+
+.threetwo {
+    background: peachpuff;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    flex-grow: 1;
+    /* width: 15%; */
+}
